@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App';
-import "@fontsource/vollkorn"
+import '@fontsource/vollkorn';
 
 ReactDOM.render(
-    <App/>,
+    <React.StrictMode>
+        <App />
+    </React.StrictMode>,
     document.getElementById('root')
 );
-
